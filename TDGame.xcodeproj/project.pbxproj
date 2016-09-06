@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0A733C166767980040A4E2 /* TDTowerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A733B166767980040A4E2 /* TDTowerListView.m */; };
+		1A0F522D160B887400B07081 /* TDShooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F522C160B887400B07081 /* TDShooterView.m */; };
+		1A0F7DBA1668DE73003D53A8 /* TDPlayButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F7DB91668DE73003D53A8 /* TDPlayButtonView.m */; };
+		1A0F7DBD1668F95E003D53A8 /* TDUpSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F7DBC1668F95E003D53A8 /* TDUpSpeedView.m */; };
+		1A0F7DC01668F96D003D53A8 /* TDDownSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F7DBF1668F96D003D53A8 /* TDDownSpeedView.m */; };
+		1A1B082D1646D8E9005AE4B0 /* TDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B082C1646D8E9005AE4B0 /* TDLabel.m */; };
+		1A1EF19315EAA3A80013E02C /* TDBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EF19215EAA3A80013E02C /* TDBaseView.m */; };
+		1A1F63B7162DDD6F0019D0A4 /* TDMissileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F63B6162DDD6F0019D0A4 /* TDMissileView.m */; };
+		1A1F63BC162DDED20019D0A4 /* TDRangeCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F63BB162DDED20019D0A4 /* TDRangeCircleView.m */; };
+		1A3D6920160892B700B6AD14 /* TDTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D691F160892B700B6AD14 /* TDTower.m */; };
+		1A411B14162AFF0100BC14C0 /* TDMissile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A411B13162AFF0100BC14C0 /* TDMissile.m */; };
+		1A45865915E79A590012FE62 /* TDField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A45865815E79A590012FE62 /* TDField.m */; };
+		1A4D853316345788007C5E26 /* TDLightingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D853216345788007C5E26 /* TDLightingView.m */; };
+		1A5DDA7515FA53A80084C38E /* TDATCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5DDA7415FA53A80084C38E /* TDATCView.m */; };
+		1A5DDA7915FA53C00084C38E /* TDTruckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5DDA7815FA53C00084C38E /* TDTruckView.m */; };
+		1A82C68E15F7B1D8004F4002 /* TDTankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A82C68D15F7B1D8004F4002 /* TDTankView.m */; };
+		1A9260381652532500AE743B /* TDEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9260371652532500AE743B /* TDEffect.m */; };
+		1A92603B1652533600AE743B /* TDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92603A1652533500AE743B /* TDMap.m */; };
+		1AA0F2D215F911DA00841EEA /* TDBomberPlaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0F2D115F911DA00841EEA /* TDBomberPlaneView.m */; };
+		1AA0F2D515F913E200841EEA /* TDArtilleryTankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0F2D415F913E200841EEA /* TDArtilleryTankView.m */; };
+		1AA0F2DC15FA15CE00841EEA /* TDStealthSoldierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0F2DB15FA15CE00841EEA /* TDStealthSoldierView.m */; };
+		1AA0F2E015FA15DC00841EEA /* TDHealthCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0F2DF15FA15DC00841EEA /* TDHealthCarView.m */; };
+		1AB48C8716405B290000564F /* TDShooterBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB48C8616405B290000564F /* TDShooterBullet.m */; };
+		1AB48C8B16405D100000564F /* TDBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB48C8A16405D100000564F /* TDBullet.m */; };
+		1ACD99DE15F791BB005D0CFE /* TDFlyerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD99DD15F791BA005D0CFE /* TDFlyerView.m */; };
+		1AD3B14D15F638A60021DBF9 /* TDSoldierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3B14C15F638A60021DBF9 /* TDSoldierView.m */; };
+		1AD3B15415F64BF50021DBF9 /* TDRiderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3B15315F64BF50021DBF9 /* TDRiderView.m */; };
+		1AD4E7711611D2B400A552E4 /* TDLaserTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4E7701611D2B400A552E4 /* TDLaserTowerView.m */; };
+		1AD4E7751611D62D00A552E4 /* TDMissileTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4E7741611D62C00A552E4 /* TDMissileTowerView.m */; };
+		1AD4E7781611D63F00A552E4 /* TDRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4E7771611D63F00A552E4 /* TDRadarView.m */; };
+		1AD4E77F161332D000A552E4 /* TDAATowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4E77E161332D000A552E4 /* TDAATowerView.m */; };
+		1AF5D9FF164543EC00F7825F /* TDTowerMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5D9FE164543EC00F7825F /* TDTowerMenuView.m */; };
+		328CA909166B884500CF9052 /* TDTowerMenuButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CA908166B884500CF9052 /* TDTowerMenuButtonView.m */; };
+		9B39294515EBD56E00010625 /* TDMob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B39294415EBD56E00010625 /* TDMob.m */; };
+		9B3FA7BE15EAA0BD00D70986 /* TDSpawnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3FA7BD15EAA0BD00D70986 /* TDSpawnerView.m */; };
+		9B5AA0CC160E07AA0010F379 /* TDMobView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AA0CB160E07AA0010F379 /* TDMobView.m */; };
+		9B5AA0D0160E0E490010F379 /* TDTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5AA0CF160E0E490010F379 /* TDTowerView.m */; };
+		9B9054841611D16C00EEC3D9 /* TDMachineGunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9054831611D16C00EEC3D9 /* TDMachineGunView.m */; };
+		9B908E9015ECBFB8003E42B7 /* TDCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B908E8F15ECBFB8003E42B7 /* TDCellView.m */; };
+		9B908E9415ECD49F003E42B7 /* TDRoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B908E9315ECD49F003E42B7 /* TDRoadView.m */; };
+		9B9A69A71611B7140037AE3A /* TDTurbulenceTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A69A61611B7140037AE3A /* TDTurbulenceTowerView.m */; };
+		9BA6A0A415FA6DB700C6A2C7 /* TDRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6A0A315FA6DB700C6A2C7 /* TDRCView.m */; };
+		9BA6A0A815FA6EC700C6A2C7 /* TDCPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6A0A715FA6EC700C6A2C7 /* TDCPView.m */; };
+		9BAA652215E13A18000DCED3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA652115E13A18000DCED3 /* UIKit.framework */; };
+		9BAA652415E13A18000DCED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA652315E13A18000DCED3 /* Foundation.framework */; };
+		9BAA652615E13A18000DCED3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA652515E13A18000DCED3 /* CoreGraphics.framework */; };
+		9BAA652C15E13A18000DCED3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA652A15E13A18000DCED3 /* InfoPlist.strings */; };
+		9BAA652E15E13A18000DCED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA652D15E13A18000DCED3 /* main.m */; };
+		9BAA653215E13A18000DCED3 /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA653115E13A18000DCED3 /* TDAppDelegate.m */; };
+		9BAA653515E13A18000DCED3 /* TDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA653415E13A18000DCED3 /* TDViewController.m */; };
+		9BAA653815E13A18000DCED3 /* TDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA653615E13A18000DCED3 /* TDViewController.xib */; };
+		9BAA654315E13AEC000DCED3 /* Icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA654215E13AEC000DCED3 /* Icon57.png */; };
+		9BAA654515E13AF0000DCED3 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA654415E13AF0000DCED3 /* Icon114.png */; };
+		9BB27C2A1615A8D900269981 /* TDPsychologicalTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB27C291615A8D900269981 /* TDPsychologicalTowerView.m */; };
+		9BB3FD9D160D0B230047E3A0 /* TDSniperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3FD9C160D0B230047E3A0 /* TDSniperView.m */; };
+		9BB3FDA0160D0BB20047E3A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3FD9F160D0BB20047E3A0 /* Default-568h@2x.png */; };
+		9BB3FDA3160D0DF20047E3A0 /* TDBomberTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3FDA2160D0DF20047E3A0 /* TDBomberTowerView.m */; };
+		9BB4F4C216177E8500A68A57 /* TDArtilleryTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB4F4C116177E8500A68A57 /* TDArtilleryTowerView.m */; };
+		9BB4F4C91617974C00A68A57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB4F4C81617974C00A68A57 /* QuartzCore.framework */; };
+		9BBD20B115EA2B6A00F34884 /* TDFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD20B015EA2B6A00F34884 /* TDFieldView.m */; };
+		9BF7DA1E15E6A923002DBE94 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BF7DA1715E6A923002DBE94 /* Data.plist */; };
+		9BF7DA1F15E6A923002DBE94 /* TDBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF7DA1915E6A923002DBE94 /* TDBase.m */; };
+		9BF7DA2015E6A923002DBE94 /* TDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF7DA1B15E6A923002DBE94 /* TDCell.m */; };
+		9BF7DA2415E6A971002DBE94 /* TDSpawner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF7DA2315E6A971002DBE94 /* TDSpawner.m */; };
+		9BF7DA2715E6A9B1002DBE94 /* TDRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF7DA2615E6A9B1002DBE94 /* TDRoad.m */; };
+		9BFA3E73160D1BB40029B1F5 /* TDFreezeTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA3E72160D1BB40029B1F5 /* TDFreezeTowerView.m */; };
+		9BFA3E79160D20CA0029B1F5 /* TDFireTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA3E78160D20CA0029B1F5 /* TDFireTowerView.m */; };
+		9BFA3E7C160D226E0029B1F5 /* TDLiquidTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA3E7B160D226E0029B1F5 /* TDLiquidTowerView.m */; };
+		9BFA3E7F160D24C30029B1F5 /* TDElectricTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA3E7E160D24C30029B1F5 /* TDElectricTowerView.m */; };
+		9BFA3E82160D25CC0029B1F5 /* TDShockTowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA3E81160D25CC0029B1F5 /* TDShockTowerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0A733A166767980040A4E2 /* TDTowerListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTowerListView.h; sourceTree = "<group>"; };
+		1A0A733B166767980040A4E2 /* TDTowerListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTowerListView.m; sourceTree = "<group>"; };
+		1A0F522B160B887400B07081 /* TDShooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDShooterView.h; sourceTree = "<group>"; };
+		1A0F522C160B887400B07081 /* TDShooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDShooterView.m; sourceTree = "<group>"; };
+		1A0F7DB81668DE73003D53A8 /* TDPlayButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPlayButtonView.h; sourceTree = "<group>"; };
+		1A0F7DB91668DE73003D53A8 /* TDPlayButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPlayButtonView.m; sourceTree = "<group>"; };
+		1A0F7DBB1668F95E003D53A8 /* TDUpSpeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDUpSpeedView.h; sourceTree = "<group>"; };
+		1A0F7DBC1668F95E003D53A8 /* TDUpSpeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDUpSpeedView.m; sourceTree = "<group>"; };
+		1A0F7DBE1668F96D003D53A8 /* TDDownSpeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDownSpeedView.h; sourceTree = "<group>"; };
+		1A0F7DBF1668F96D003D53A8 /* TDDownSpeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDownSpeedView.m; sourceTree = "<group>"; };
+		1A1B082B1646D8E9005AE4B0 /* TDLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLabel.h; sourceTree = "<group>"; };
+		1A1B082C1646D8E9005AE4B0 /* TDLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLabel.m; sourceTree = "<group>"; };
+		1A1EF19115EAA3A80013E02C /* TDBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBaseView.h; sourceTree = "<group>"; };
+		1A1EF19215EAA3A80013E02C /* TDBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBaseView.m; sourceTree = "<group>"; };
+		1A1F63B5162DDD6F0019D0A4 /* TDMissileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMissileView.h; sourceTree = "<group>"; };
+		1A1F63B6162DDD6F0019D0A4 /* TDMissileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMissileView.m; sourceTree = "<group>"; };
+		1A1F63BA162DDED20019D0A4 /* TDRangeCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDRangeCircleView.h; sourceTree = "<group>"; };
+		1A1F63BB162DDED20019D0A4 /* TDRangeCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDRangeCircleView.m; sourceTree = "<group>"; };
+		1A3D691E160892B700B6AD14 /* TDTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTower.h; sourceTree = "<group>"; };
+		1A3D691F160892B700B6AD14 /* TDTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTower.m; sourceTree = "<group>"; };
+		1A411B12162AFF0100BC14C0 /* TDMissile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMissile.h; sourceTree = "<group>"; };
+		1A411B13162AFF0100BC14C0 /* TDMissile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMissile.m; sourceTree = "<group>"; };
+		1A45865715E79A590012FE62 /* TDField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDField.h; sourceTree = "<group>"; };
+		1A45865815E79A590012FE62 /* TDField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDField.m; sourceTree = "<group>"; };
+		1A4D853116345788007C5E26 /* TDLightingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLightingView.h; sourceTree = "<group>"; };
+		1A4D853216345788007C5E26 /* TDLightingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLightingView.m; sourceTree = "<group>"; };
+		1A5DDA7315FA53A80084C38E /* TDATCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDATCView.h; sourceTree = "<group>"; };
+		1A5DDA7415FA53A80084C38E /* TDATCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDATCView.m; sourceTree = "<group>"; };
+		1A5DDA7715FA53C00084C38E /* TDTruckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTruckView.h; sourceTree = "<group>"; };
+		1A5DDA7815FA53C00084C38E /* TDTruckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTruckView.m; sourceTree = "<group>"; };
+		1A82C68C15F7B1D8004F4002 /* TDTankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTankView.h; sourceTree = "<group>"; };
+		1A82C68D15F7B1D8004F4002 /* TDTankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTankView.m; sourceTree = "<group>"; };
+		1A9260361652532500AE743B /* TDEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDEffect.h; sourceTree = "<group>"; };
+		1A9260371652532500AE743B /* TDEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDEffect.m; sourceTree = "<group>"; };
+		1A9260391652533500AE743B /* TDMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMap.h; sourceTree = "<group>"; };
+		1A92603A1652533500AE743B /* TDMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMap.m; sourceTree = "<group>"; };
+		1AA0F2D015F911DA00841EEA /* TDBomberPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBomberPlaneView.h; sourceTree = "<group>"; };
+		1AA0F2D115F911DA00841EEA /* TDBomberPlaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBomberPlaneView.m; sourceTree = "<group>"; };
+		1AA0F2D315F913E200841EEA /* TDArtilleryTankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDArtilleryTankView.h; sourceTree = "<group>"; };
+		1AA0F2D415F913E200841EEA /* TDArtilleryTankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDArtilleryTankView.m; sourceTree = "<group>"; };
+		1AA0F2DA15FA15CE00841EEA /* TDStealthSoldierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDStealthSoldierView.h; sourceTree = "<group>"; };
+		1AA0F2DB15FA15CE00841EEA /* TDStealthSoldierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDStealthSoldierView.m; sourceTree = "<group>"; };
+		1AA0F2DE15FA15DC00841EEA /* TDHealthCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDHealthCarView.h; sourceTree = "<group>"; };
+		1AA0F2DF15FA15DC00841EEA /* TDHealthCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDHealthCarView.m; sourceTree = "<group>"; };
+		1AB48C8516405B290000564F /* TDShooterBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDShooterBullet.h; sourceTree = "<group>"; };
+		1AB48C8616405B290000564F /* TDShooterBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDShooterBullet.m; sourceTree = "<group>"; };
+		1AB48C8916405D100000564F /* TDBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBullet.h; sourceTree = "<group>"; };
+		1AB48C8A16405D100000564F /* TDBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBullet.m; sourceTree = "<group>"; };
+		1ACD99DC15F791BA005D0CFE /* TDFlyerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDFlyerView.h; sourceTree = "<group>"; };
+		1ACD99DD15F791BA005D0CFE /* TDFlyerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDFlyerView.m; sourceTree = "<group>"; };
+		1AD3B14B15F638A60021DBF9 /* TDSoldierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSoldierView.h; sourceTree = "<group>"; };
+		1AD3B14C15F638A60021DBF9 /* TDSoldierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSoldierView.m; sourceTree = "<group>"; };
+		1AD3B15215F64BF50021DBF9 /* TDRiderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDRiderView.h; sourceTree = "<group>"; };
+		1AD3B15315F64BF50021DBF9 /* TDRiderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDRiderView.m; sourceTree = "<group>"; };
+		1AD4E76F1611D2B400A552E4 /* TDLaserTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLaserTowerView.h; sourceTree = "<group>"; };
+		1AD4E7701611D2B400A552E4 /* TDLaserTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLaserTowerView.m; sourceTree = "<group>"; };
+		1AD4E7731611D62C00A552E4 /* TDMissileTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMissileTowerView.h; sourceTree = "<group>"; };
+		1AD4E7741611D62C00A552E4 /* TDMissileTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMissileTowerView.m; sourceTree = "<group>"; };
+		1AD4E7761611D63E00A552E4 /* TDRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDRadarView.h; sourceTree = "<group>"; };
+		1AD4E7771611D63F00A552E4 /* TDRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDRadarView.m; sourceTree = "<group>"; };
+		1AD4E77D161332D000A552E4 /* TDAATowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAATowerView.h; sourceTree = "<group>"; };
+		1AD4E77E161332D000A552E4 /* TDAATowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAATowerView.m; sourceTree = "<group>"; };
+		1AF5D9FD164543EC00F7825F /* TDTowerMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTowerMenuView.h; sourceTree = "<group>"; };
+		1AF5D9FE164543EC00F7825F /* TDTowerMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTowerMenuView.m; sourceTree = "<group>"; };
+		328CA907166B884500CF9052 /* TDTowerMenuButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTowerMenuButtonView.h; sourceTree = "<group>"; };
+		328CA908166B884500CF9052 /* TDTowerMenuButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTowerMenuButtonView.m; sourceTree = "<group>"; };
+		9B39294315EBD56E00010625 /* TDMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMob.h; sourceTree = "<group>"; };
+		9B39294415EBD56E00010625 /* TDMob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMob.m; sourceTree = "<group>"; };
+		9B3FA7BC15EAA0BD00D70986 /* TDSpawnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSpawnerView.h; sourceTree = "<group>"; };
+		9B3FA7BD15EAA0BD00D70986 /* TDSpawnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSpawnerView.m; sourceTree = "<group>"; };
+		9B5AA0CA160E07AA0010F379 /* TDMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMobView.h; sourceTree = "<group>"; };
+		9B5AA0CB160E07AA0010F379 /* TDMobView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMobView.m; sourceTree = "<group>"; };
+		9B5AA0CE160E0E490010F379 /* TDTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTowerView.h; sourceTree = "<group>"; };
+		9B5AA0CF160E0E490010F379 /* TDTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTowerView.m; sourceTree = "<group>"; };
+		9B9054821611D16C00EEC3D9 /* TDMachineGunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMachineGunView.h; sourceTree = "<group>"; };
+		9B9054831611D16C00EEC3D9 /* TDMachineGunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMachineGunView.m; sourceTree = "<group>"; };
+		9B908E8E15ECBFB8003E42B7 /* TDCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCellView.h; sourceTree = "<group>"; };
+		9B908E8F15ECBFB8003E42B7 /* TDCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDCellView.m; sourceTree = "<group>"; };
+		9B908E9215ECD49F003E42B7 /* TDRoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDRoadView.h; sourceTree = "<group>"; };
+		9B908E9315ECD49F003E42B7 /* TDRoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDRoadView.m; sourceTree = "<group>"; };
+		9B9A69A51611B7140037AE3A /* TDTurbulenceTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTurbulenceTowerView.h; sourceTree = "<group>"; };
+		9B9A69A61611B7140037AE3A /* TDTurbulenceTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTurbulenceTowerView.m; sourceTree = "<group>"; };
+		9BA6A0A215FA6DB700C6A2C7 /* TDRCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDRCView.h; sourceTree = "<group>"; };
+		9BA6A0A315FA6DB700C6A2C7 /* TDRCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDRCView.m; sourceTree = "<group>"; };
+		9BA6A0A615FA6EC700C6A2C7 /* TDCPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCPView.h; sourceTree = "<group>"; };
+		9BA6A0A715FA6EC700C6A2C7 /* TDCPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDCPView.m; sourceTree = "<group>"; };
+		9BAA651D15E13A18000DCED3 /* TDGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAA652115E13A18000DCED3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BAA652315E13A18000DCED3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BAA652515E13A18000DCED3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BAA652915E13A18000DCED3 /* TDGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDGame-Info.plist"; sourceTree = "<group>"; };
+		9BAA652B15E13A18000DCED3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BAA652D15E13A18000DCED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BAA652F15E13A18000DCED3 /* TDGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDGame-Prefix.pch"; sourceTree = "<group>"; };
+		9BAA653015E13A18000DCED3 /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TDAppDelegate.h; path = TDGame/TDAppDelegate.h; sourceTree = "<group>"; };
+		9BAA653115E13A18000DCED3 /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TDAppDelegate.m; path = TDGame/TDAppDelegate.m; sourceTree = "<group>"; };
+		9BAA653315E13A18000DCED3 /* TDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDViewController.h; sourceTree = "<group>"; };
+		9BAA653415E13A18000DCED3 /* TDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDViewController.m; sourceTree = "<group>"; };
+		9BAA653715E13A18000DCED3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TDViewController.xib; sourceTree = "<group>"; };
+		9BAA654215E13AEC000DCED3 /* Icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon57.png; sourceTree = "<group>"; };
+		9BAA654415E13AF0000DCED3 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon114.png; sourceTree = "<group>"; };
+		9BB27C281615A8D900269981 /* TDPsychologicalTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPsychologicalTowerView.h; sourceTree = "<group>"; };
+		9BB27C291615A8D900269981 /* TDPsychologicalTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPsychologicalTowerView.m; sourceTree = "<group>"; };
+		9BB3FD9B160D0B230047E3A0 /* TDSniperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSniperView.h; sourceTree = "<group>"; };
+		9BB3FD9C160D0B230047E3A0 /* TDSniperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSniperView.m; sourceTree = "<group>"; };
+		9BB3FD9F160D0BB20047E3A0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9BB3FDA1160D0DF20047E3A0 /* TDBomberTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBomberTowerView.h; sourceTree = "<group>"; };
+		9BB3FDA2160D0DF20047E3A0 /* TDBomberTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBomberTowerView.m; sourceTree = "<group>"; };
+		9BB4F4C016177E8500A68A57 /* TDArtilleryTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDArtilleryTowerView.h; sourceTree = "<group>"; };
+		9BB4F4C116177E8500A68A57 /* TDArtilleryTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDArtilleryTowerView.m; sourceTree = "<group>"; };
+		9BB4F4C81617974C00A68A57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9BBD20AF15EA2B6A00F34884 /* TDFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDFieldView.h; sourceTree = "<group>"; };
+		9BBD20B015EA2B6A00F34884 /* TDFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDFieldView.m; sourceTree = "<group>"; };
+		9BF7DA1715E6A923002DBE94 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		9BF7DA1815E6A923002DBE94 /* TDBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBase.h; sourceTree = "<group>"; };
+		9BF7DA1915E6A923002DBE94 /* TDBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBase.m; sourceTree = "<group>"; };
+		9BF7DA1A15E6A923002DBE94 /* TDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCell.h; sourceTree = "<group>"; };
+		9BF7DA1B15E6A923002DBE94 /* TDCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDCell.m; sourceTree = "<group>"; };
+		9BF7DA2215E6A971002DBE94 /* TDSpawner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSpawner.h; sourceTree = "<group>"; };
+		9BF7DA2315E6A971002DBE94 /* TDSpawner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSpawner.m; sourceTree = "<group>"; };
+		9BF7DA2515E6A9B1002DBE94 /* TDRoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDRoad.h; sourceTree = "<group>"; };
+		9BF7DA2615E6A9B1002DBE94 /* TDRoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDRoad.m; sourceTree = "<group>"; };
+		9BFA3E71160D1BB40029B1F5 /* TDFreezeTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDFreezeTowerView.h; sourceTree = "<group>"; };
+		9BFA3E72160D1BB40029B1F5 /* TDFreezeTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDFreezeTowerView.m; sourceTree = "<group>"; };
+		9BFA3E77160D20CA0029B1F5 /* TDFireTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDFireTowerView.h; sourceTree = "<group>"; };
+		9BFA3E78160D20CA0029B1F5 /* TDFireTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDFireTowerView.m; sourceTree = "<group>"; };
+		9BFA3E7A160D226E0029B1F5 /* TDLiquidTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLiquidTowerView.h; sourceTree = "<group>"; };
+		9BFA3E7B160D226E0029B1F5 /* TDLiquidTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLiquidTowerView.m; sourceTree = "<group>"; };
+		9BFA3E7D160D24C30029B1F5 /* TDElectricTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDElectricTowerView.h; sourceTree = "<group>"; };
+		9BFA3E7E160D24C30029B1F5 /* TDElectricTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDElectricTowerView.m; sourceTree = "<group>"; };
+		9BFA3E80160D25CC0029B1F5 /* TDShockTowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDShockTowerView.h; sourceTree = "<group>"; };
+		9BFA3E81160D25CC0029B1F5 /* TDShockTowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDShockTowerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BAA651A15E13A18000DCED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB4F4C91617974C00A68A57 /* QuartzCore.framework in Frameworks */,
+				9BAA652215E13A18000DCED3 /* UIKit.framework in Frameworks */,
+				9BAA652415E13A18000DCED3 /* Foundation.framework in Frameworks */,
+				9BAA652615E13A18000DCED3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0F7DB31668DB8E003D53A8 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				328CA8FA166B84FC00CF9052 /* Buttons */,
+				328CA8F8166B84BC00CF9052 /* Tower */,
+				1A1B082B1646D8E9005AE4B0 /* TDLabel.h */,
+				1A1B082C1646D8E9005AE4B0 /* TDLabel.m */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		1A4D852F163456B4007C5E26 /* BulletView */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F63B5162DDD6F0019D0A4 /* TDMissileView.h */,
+				1A1F63B6162DDD6F0019D0A4 /* TDMissileView.m */,
+				1A4D853116345788007C5E26 /* TDLightingView.h */,
+				1A4D853216345788007C5E26 /* TDLightingView.m */,
+			);
+			name = BulletView;
+			sourceTree = "<group>";
+		};
+		328CA8F8166B84BC00CF9052 /* Tower */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F63BA162DDED20019D0A4 /* TDRangeCircleView.h */,
+				1A1F63BB162DDED20019D0A4 /* TDRangeCircleView.m */,
+				1AF5D9FD164543EC00F7825F /* TDTowerMenuView.h */,
+				1AF5D9FE164543EC00F7825F /* TDTowerMenuView.m */,
+				328CA907166B884500CF9052 /* TDTowerMenuButtonView.h */,
+				328CA908166B884500CF9052 /* TDTowerMenuButtonView.m */,
+			);
+			name = Tower;
+			sourceTree = "<group>";
+		};
+		328CA8FA166B84FC00CF9052 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1A0A733A166767980040A4E2 /* TDTowerListView.h */,
+				1A0A733B166767980040A4E2 /* TDTowerListView.m */,
+				1A0F7DB81668DE73003D53A8 /* TDPlayButtonView.h */,
+				1A0F7DB91668DE73003D53A8 /* TDPlayButtonView.m */,
+				1A0F7DBB1668F95E003D53A8 /* TDUpSpeedView.h */,
+				1A0F7DBC1668F95E003D53A8 /* TDUpSpeedView.m */,
+				1A0F7DBE1668F96D003D53A8 /* TDDownSpeedView.h */,
+				1A0F7DBF1668F96D003D53A8 /* TDDownSpeedView.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		9BAA651215E13A18000DCED3 = {
+			isa = PBXGroup;
+			children = (
+				9BB4F4C81617974C00A68A57 /* QuartzCore.framework */,
+				9BB3FD9F160D0BB20047E3A0 /* Default-568h@2x.png */,
+				9BF7DA1615E6A923002DBE94 /* Data */,
+				9BAA654415E13AF0000DCED3 /* Icon114.png */,
+				9BAA653115E13A18000DCED3 /* TDAppDelegate.m */,
+				9BAA653015E13A18000DCED3 /* TDAppDelegate.h */,
+				9BAA654215E13AEC000DCED3 /* Icon57.png */,
+				9BAA652715E13A18000DCED3 /* TDGame */,
+				9BAA652015E13A18000DCED3 /* Frameworks */,
+				9BAA651E15E13A18000DCED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BAA651E15E13A18000DCED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BAA651D15E13A18000DCED3 /* TDGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BAA652015E13A18000DCED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BAA652115E13A18000DCED3 /* UIKit.framework */,
+				9BAA652315E13A18000DCED3 /* Foundation.framework */,
+				9BAA652515E13A18000DCED3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BAA652715E13A18000DCED3 /* TDGame */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F7DB31668DB8E003D53A8 /* Interface */,
+				9BAA652815E13A18000DCED3 /* Supporting Files */,
+				1A4D852F163456B4007C5E26 /* BulletView */,
+				9BFA3E75160D1D070029B1F5 /* MobView */,
+				9BFA3E76160D1D1D0029B1F5 /* TowerView */,
+				9BAA653315E13A18000DCED3 /* TDViewController.h */,
+				9BAA653415E13A18000DCED3 /* TDViewController.m */,
+				9BAA653615E13A18000DCED3 /* TDViewController.xib */,
+				9BBD20AF15EA2B6A00F34884 /* TDFieldView.h */,
+				9BBD20B015EA2B6A00F34884 /* TDFieldView.m */,
+				9B908E8E15ECBFB8003E42B7 /* TDCellView.h */,
+				9B908E8F15ECBFB8003E42B7 /* TDCellView.m */,
+				9B3FA7BC15EAA0BD00D70986 /* TDSpawnerView.h */,
+				9B3FA7BD15EAA0BD00D70986 /* TDSpawnerView.m */,
+				1A1EF19115EAA3A80013E02C /* TDBaseView.h */,
+				1A1EF19215EAA3A80013E02C /* TDBaseView.m */,
+				9B908E9215ECD49F003E42B7 /* TDRoadView.h */,
+				9B908E9315ECD49F003E42B7 /* TDRoadView.m */,
+			);
+			path = TDGame;
+			sourceTree = "<group>";
+		};
+		9BAA652815E13A18000DCED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BAA652915E13A18000DCED3 /* TDGame-Info.plist */,
+				9BAA652A15E13A18000DCED3 /* InfoPlist.strings */,
+				9BAA652D15E13A18000DCED3 /* main.m */,
+				9BAA652F15E13A18000DCED3 /* TDGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BF7DA1615E6A923002DBE94 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9BF7DA1715E6A923002DBE94 /* Data.plist */,
+				9BF7DA1815E6A923002DBE94 /* TDBase.h */,
+				9BF7DA1915E6A923002DBE94 /* TDBase.m */,
+				9BF7DA1A15E6A923002DBE94 /* TDCell.h */,
+				9BF7DA1B15E6A923002DBE94 /* TDCell.m */,
+				9BF7DA2215E6A971002DBE94 /* TDSpawner.h */,
+				9BF7DA2315E6A971002DBE94 /* TDSpawner.m */,
+				9BF7DA2515E6A9B1002DBE94 /* TDRoad.h */,
+				9BF7DA2615E6A9B1002DBE94 /* TDRoad.m */,
+				1A45865715E79A590012FE62 /* TDField.h */,
+				1A45865815E79A590012FE62 /* TDField.m */,
+				9B39294315EBD56E00010625 /* TDMob.h */,
+				9B39294415EBD56E00010625 /* TDMob.m */,
+				1A3D691E160892B700B6AD14 /* TDTower.h */,
+				1A3D691F160892B700B6AD14 /* TDTower.m */,
+				1A411B12162AFF0100BC14C0 /* TDMissile.h */,
+				1A411B13162AFF0100BC14C0 /* TDMissile.m */,
+				1AB48C8516405B290000564F /* TDShooterBullet.h */,
+				1AB48C8616405B290000564F /* TDShooterBullet.m */,
+				1AB48C8916405D100000564F /* TDBullet.h */,
+				1AB48C8A16405D100000564F /* TDBullet.m */,
+				1A9260361652532500AE743B /* TDEffect.h */,
+				1A9260371652532500AE743B /* TDEffect.m */,
+				1A9260391652533500AE743B /* TDMap.h */,
+				1A92603A1652533500AE743B /* TDMap.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9BFA3E75160D1D070029B1F5 /* MobView */ = {
+			isa = PBXGroup;
+			children = (
+				9B5AA0CA160E07AA0010F379 /* TDMobView.h */,
+				9B5AA0CB160E07AA0010F379 /* TDMobView.m */,
+				1AD3B14B15F638A60021DBF9 /* TDSoldierView.h */,
+				1AD3B14C15F638A60021DBF9 /* TDSoldierView.m */,
+				1AD3B15215F64BF50021DBF9 /* TDRiderView.h */,
+				1AD3B15315F64BF50021DBF9 /* TDRiderView.m */,
+				1ACD99DC15F791BA005D0CFE /* TDFlyerView.h */,
+				1ACD99DD15F791BA005D0CFE /* TDFlyerView.m */,
+				1A82C68C15F7B1D8004F4002 /* TDTankView.h */,
+				1A82C68D15F7B1D8004F4002 /* TDTankView.m */,
+				1AA0F2D015F911DA00841EEA /* TDBomberPlaneView.h */,
+				1AA0F2D115F911DA00841EEA /* TDBomberPlaneView.m */,
+				1AA0F2D315F913E200841EEA /* TDArtilleryTankView.h */,
+				1AA0F2D415F913E200841EEA /* TDArtilleryTankView.m */,
+				1AA0F2DA15FA15CE00841EEA /* TDStealthSoldierView.h */,
+				1AA0F2DB15FA15CE00841EEA /* TDStealthSoldierView.m */,
+				1AA0F2DE15FA15DC00841EEA /* TDHealthCarView.h */,
+				1AA0F2DF15FA15DC00841EEA /* TDHealthCarView.m */,
+				1A5DDA7315FA53A80084C38E /* TDATCView.h */,
+				1A5DDA7415FA53A80084C38E /* TDATCView.m */,
+				1A5DDA7715FA53C00084C38E /* TDTruckView.h */,
+				1A5DDA7815FA53C00084C38E /* TDTruckView.m */,
+				9BA6A0A215FA6DB700C6A2C7 /* TDRCView.h */,
+				9BA6A0A315FA6DB700C6A2C7 /* TDRCView.m */,
+				9BA6A0A615FA6EC700C6A2C7 /* TDCPView.h */,
+				9BA6A0A715FA6EC700C6A2C7 /* TDCPView.m */,
+			);
+			name = MobView;
+			sourceTree = "<group>";
+		};
+		9BFA3E76160D1D1D0029B1F5 /* TowerView */ = {
+			isa = PBXGroup;
+			children = (
+				9B5AA0CE160E0E490010F379 /* TDTowerView.h */,
+				9B5AA0CF160E0E490010F379 /* TDTowerView.m */,
+				1A0F522B160B887400B07081 /* TDShooterView.h */,
+				1A0F522C160B887400B07081 /* TDShooterView.m */,
+				9BB3FD9B160D0B230047E3A0 /* TDSniperView.h */,
+				9BB3FD9C160D0B230047E3A0 /* TDSniperView.m */,
+				9BB3FDA1160D0DF20047E3A0 /* TDBomberTowerView.h */,
+				9BB3FDA2160D0DF20047E3A0 /* TDBomberTowerView.m */,
+				9BFA3E71160D1BB40029B1F5 /* TDFreezeTowerView.h */,
+				9BFA3E72160D1BB40029B1F5 /* TDFreezeTowerView.m */,
+				9BFA3E77160D20CA0029B1F5 /* TDFireTowerView.h */,
+				9BFA3E78160D20CA0029B1F5 /* TDFireTowerView.m */,
+				9BFA3E7A160D226E0029B1F5 /* TDLiquidTowerView.h */,
+				9BFA3E7B160D226E0029B1F5 /* TDLiquidTowerView.m */,
+				9BFA3E7D160D24C30029B1F5 /* TDElectricTowerView.h */,
+				9BFA3E7E160D24C30029B1F5 /* TDElectricTowerView.m */,
+				9BFA3E80160D25CC0029B1F5 /* TDShockTowerView.h */,
+				9BFA3E81160D25CC0029B1F5 /* TDShockTowerView.m */,
+				9B9A69A51611B7140037AE3A /* TDTurbulenceTowerView.h */,
+				9B9A69A61611B7140037AE3A /* TDTurbulenceTowerView.m */,
+				9B9054821611D16C00EEC3D9 /* TDMachineGunView.h */,
+				9B9054831611D16C00EEC3D9 /* TDMachineGunView.m */,
+				1AD4E76F1611D2B400A552E4 /* TDLaserTowerView.h */,
+				1AD4E7701611D2B400A552E4 /* TDLaserTowerView.m */,
+				1AD4E7731611D62C00A552E4 /* TDMissileTowerView.h */,
+				1AD4E7741611D62C00A552E4 /* TDMissileTowerView.m */,
+				1AD4E7761611D63E00A552E4 /* TDRadarView.h */,
+				1AD4E7771611D63F00A552E4 /* TDRadarView.m */,
+				1AD4E77D161332D000A552E4 /* TDAATowerView.h */,
+				1AD4E77E161332D000A552E4 /* TDAATowerView.m */,
+				9BB27C281615A8D900269981 /* TDPsychologicalTowerView.h */,
+				9BB27C291615A8D900269981 /* TDPsychologicalTowerView.m */,
+				9BB4F4C016177E8500A68A57 /* TDArtilleryTowerView.h */,
+				9BB4F4C116177E8500A68A57 /* TDArtilleryTowerView.m */,
+			);
+			name = TowerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BAA651C15E13A18000DCED3 /* TDGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAA653B15E13A18000DCED3 /* Build configuration list for PBXNativeTarget "TDGame" */;
+			buildPhases = (
+				9BAA651915E13A18000DCED3 /* Sources */,
+				9BAA651A15E13A18000DCED3 /* Frameworks */,
+				9BAA651B15E13A18000DCED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDGame;
+			productName = TDGame;
+			productReference = 9BAA651D15E13A18000DCED3 /* TDGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BAA651415E13A18000DCED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = SNK;
+			};
+			buildConfigurationList = 9BAA651715E13A18000DCED3 /* Build configuration list for PBXProject "TDGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BAA651215E13A18000DCED3;
+			productRefGroup = 9BAA651E15E13A18000DCED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BAA651C15E13A18000DCED3 /* TDGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BAA651B15E13A18000DCED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAA652C15E13A18000DCED3 /* InfoPlist.strings in Resources */,
+				9BAA653815E13A18000DCED3 /* TDViewController.xib in Resources */,
+				9BAA654315E13AEC000DCED3 /* Icon57.png in Resources */,
+				9BAA654515E13AF0000DCED3 /* Icon114.png in Resources */,
+				9BF7DA1E15E6A923002DBE94 /* Data.plist in Resources */,
+				9BB3FDA0160D0BB20047E3A0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BAA651915E13A18000DCED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAA652E15E13A18000DCED3 /* main.m in Sources */,
+				9BAA653215E13A18000DCED3 /* TDAppDelegate.m in Sources */,
+				9BAA653515E13A18000DCED3 /* TDViewController.m in Sources */,
+				9BF7DA1F15E6A923002DBE94 /* TDBase.m in Sources */,
+				9BF7DA2015E6A923002DBE94 /* TDCell.m in Sources */,
+				9BF7DA2415E6A971002DBE94 /* TDSpawner.m in Sources */,
+				9BF7DA2715E6A9B1002DBE94 /* TDRoad.m in Sources */,
+				1A45865915E79A590012FE62 /* TDField.m in Sources */,
+				9BBD20B115EA2B6A00F34884 /* TDFieldView.m in Sources */,
+				9B3FA7BE15EAA0BD00D70986 /* TDSpawnerView.m in Sources */,
+				1A1EF19315EAA3A80013E02C /* TDBaseView.m in Sources */,
+				9B39294515EBD56E00010625 /* TDMob.m in Sources */,
+				9B908E9015ECBFB8003E42B7 /* TDCellView.m in Sources */,
+				9B908E9415ECD49F003E42B7 /* TDRoadView.m in Sources */,
+				1AD3B14D15F638A60021DBF9 /* TDSoldierView.m in Sources */,
+				1AD3B15415F64BF50021DBF9 /* TDRiderView.m in Sources */,
+				1ACD99DE15F791BB005D0CFE /* TDFlyerView.m in Sources */,
+				1A82C68E15F7B1D8004F4002 /* TDTankView.m in Sources */,
+				1AA0F2D215F911DA00841EEA /* TDBomberPlaneView.m in Sources */,
+				1AA0F2D515F913E200841EEA /* TDArtilleryTankView.m in Sources */,
+				1AA0F2DC15FA15CE00841EEA /* TDStealthSoldierView.m in Sources */,
+				1AA0F2E015FA15DC00841EEA /* TDHealthCarView.m in Sources */,
+				1A5DDA7515FA53A80084C38E /* TDATCView.m in Sources */,
+				1A5DDA7915FA53C00084C38E /* TDTruckView.m in Sources */,
+				9BA6A0A415FA6DB700C6A2C7 /* TDRCView.m in Sources */,
+				9BA6A0A815FA6EC700C6A2C7 /* TDCPView.m in Sources */,
+				1A3D6920160892B700B6AD14 /* TDTower.m in Sources */,
+				1A0F522D160B887400B07081 /* TDShooterView.m in Sources */,
+				9BB3FD9D160D0B230047E3A0 /* TDSniperView.m in Sources */,
+				9BB3FDA3160D0DF20047E3A0 /* TDBomberTowerView.m in Sources */,
+				9BFA3E73160D1BB40029B1F5 /* TDFreezeTowerView.m in Sources */,
+				9BFA3E79160D20CA0029B1F5 /* TDFireTowerView.m in Sources */,
+				9BFA3E7C160D226E0029B1F5 /* TDLiquidTowerView.m in Sources */,
+				9BFA3E7F160D24C30029B1F5 /* TDElectricTowerView.m in Sources */,
+				9BFA3E82160D25CC0029B1F5 /* TDShockTowerView.m in Sources */,
+				9B5AA0CC160E07AA0010F379 /* TDMobView.m in Sources */,
+				9B5AA0D0160E0E490010F379 /* TDTowerView.m in Sources */,
+				9B9A69A71611B7140037AE3A /* TDTurbulenceTowerView.m in Sources */,
+				9B9054841611D16C00EEC3D9 /* TDMachineGunView.m in Sources */,
+				1AD4E7711611D2B400A552E4 /* TDLaserTowerView.m in Sources */,
+				1AD4E7751611D62D00A552E4 /* TDMissileTowerView.m in Sources */,
+				1AD4E7781611D63F00A552E4 /* TDRadarView.m in Sources */,
+				1AD4E77F161332D000A552E4 /* TDAATowerView.m in Sources */,
+				9BB27C2A1615A8D900269981 /* TDPsychologicalTowerView.m in Sources */,
+				9BB4F4C216177E8500A68A57 /* TDArtilleryTowerView.m in Sources */,
+				1A411B14162AFF0100BC14C0 /* TDMissile.m in Sources */,
+				1A1F63B7162DDD6F0019D0A4 /* TDMissileView.m in Sources */,
+				1A1F63BC162DDED20019D0A4 /* TDRangeCircleView.m in Sources */,
+				1A4D853316345788007C5E26 /* TDLightingView.m in Sources */,
+				1AB48C8716405B290000564F /* TDShooterBullet.m in Sources */,
+				1AB48C8B16405D100000564F /* TDBullet.m in Sources */,
+				1AF5D9FF164543EC00F7825F /* TDTowerMenuView.m in Sources */,
+				1A1B082D1646D8E9005AE4B0 /* TDLabel.m in Sources */,
+				1A9260381652532500AE743B /* TDEffect.m in Sources */,
+				1A92603B1652533600AE743B /* TDMap.m in Sources */,
+				1A0A733C166767980040A4E2 /* TDTowerListView.m in Sources */,
+				1A0F7DBA1668DE73003D53A8 /* TDPlayButtonView.m in Sources */,
+				1A0F7DBD1668F95E003D53A8 /* TDUpSpeedView.m in Sources */,
+				1A0F7DC01668F96D003D53A8 /* TDDownSpeedView.m in Sources */,
+				328CA909166B884500CF9052 /* TDTowerMenuButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BAA652A15E13A18000DCED3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BAA652B15E13A18000DCED3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BAA653615E13A18000DCED3 /* TDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BAA653715E13A18000DCED3 /* en */,
+			);
+			name = TDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BAA653915E13A18000DCED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BAA653A15E13A18000DCED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BAA653C15E13A18000DCED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDGame/TDGame-Prefix.pch";
+				INFOPLIST_FILE = "TDGame/TDGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BAA653D15E13A18000DCED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDGame/TDGame-Prefix.pch";
+				INFOPLIST_FILE = "TDGame/TDGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BAA651715E13A18000DCED3 /* Build configuration list for PBXProject "TDGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAA653915E13A18000DCED3 /* Debug */,
+				9BAA653A15E13A18000DCED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAA653B15E13A18000DCED3 /* Build configuration list for PBXNativeTarget "TDGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAA653C15E13A18000DCED3 /* Debug */,
+				9BAA653D15E13A18000DCED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BAA651415E13A18000DCED3 /* Project object */;
+}
